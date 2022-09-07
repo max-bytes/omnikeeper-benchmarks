@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1662540610870,
+  "lastUpdate": 1662540612095,
   "repoUrl": "https://github.com/max-bytes/omnikeeper",
   "entries": {
     "Benchmark": [
@@ -638,6 +638,64 @@ window.BENCHMARK_DATA = {
             "value": 206192324.48,
             "unit": "ns",
             "range": "± 9632112.658478552"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "committer": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "id": "283fdea429805fb97a45ce42c8d11e4fbc84f5a8",
+          "message": "fix version of d3-graphviz to ~4.1.1 to work around issue https://github.com/hpcc-systems/hpcc-js-wasm/issues/115",
+          "timestamp": "2022-09-07T08:43:33Z",
+          "url": "https://github.com/max-bytes/omnikeeper/commit/283fdea429805fb97a45ce42c8d11e4fbc84f5a8"
+        },
+        "date": 1662540611850,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "PerfTests.BulkReplaceAttributesTest.BulkReplaceAttributes(AttributeValueType: \"Integer\", AttributeCITuple: (500, 5000, 5000, 50))",
+            "value": 941920179.8,
+            "unit": "ns",
+            "range": "± 29117591.18434651"
+          },
+          {
+            "name": "PerfTests.BulkReplaceAttributesTest.BulkReplaceAttributes(AttributeValueType: \"IntegerArray\", AttributeCITuple: (500, 5000, 5000, 50))",
+            "value": 979757826,
+            "unit": "ns",
+            "range": "± 13808651.317320168"
+          },
+          {
+            "name": "PerfTests.BulkReplaceAttributesTest.BulkReplaceAttributes(AttributeValueType: \"JSON\", AttributeCITuple: (500, 5000, 5000, 50))",
+            "value": 1343363921.8,
+            "unit": "ns",
+            "range": "± 686617512.1373405"
+          },
+          {
+            "name": "PerfTests.BulkReplaceAttributesTest.BulkReplaceAttributes(AttributeValueType: \"JSONArray\", AttributeCITuple: (500, 5000, 5000, 50))",
+            "value": 1870385572.2,
+            "unit": "ns",
+            "range": "± 2225070967.177697"
+          },
+          {
+            "name": "PerfTests.BulkReplaceAttributesTest.BulkReplaceAttributes(AttributeValueType: \"Text\", AttributeCITuple: (500, 5000, 5000, 50))",
+            "value": 976311549.8,
+            "unit": "ns",
+            "range": "± 14244854.075174686"
+          },
+          {
+            "name": "PerfTests.BulkReplaceAttributesTest.BulkReplaceAttributes(AttributeValueType: \"TextArray\", AttributeCITuple: (500, 5000, 5000, 50))",
+            "value": 1151548148.3,
+            "unit": "ns",
+            "range": "± 24630447.54706793"
           }
         ]
       }
