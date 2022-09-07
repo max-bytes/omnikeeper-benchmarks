@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1662539721871,
+  "lastUpdate": 1662540610870,
   "repoUrl": "https://github.com/max-bytes/omnikeeper",
   "entries": {
     "Benchmark": [
@@ -580,6 +580,64 @@ window.BENCHMARK_DATA = {
             "value": 1174988043.8,
             "unit": "ns",
             "range": "± 37104262.21574749"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "committer": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "id": "283fdea429805fb97a45ce42c8d11e4fbc84f5a8",
+          "message": "fix version of d3-graphviz to ~4.1.1 to work around issue https://github.com/hpcc-systems/hpcc-js-wasm/issues/115",
+          "timestamp": "2022-09-07T08:43:33Z",
+          "url": "https://github.com/max-bytes/omnikeeper/commit/283fdea429805fb97a45ce42c8d11e4fbc84f5a8"
+        },
+        "date": 1662540610602,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "PerfTests.GetMergedAttributesTest.GetMergedAttributes(CIIDSelection: \"all\", AttributeValueType: \"Integer\", AttributeCITuple: (1000, 10000, 4, 50))",
+            "value": 120961412.36,
+            "unit": "ns",
+            "range": "± 6561664.509412407"
+          },
+          {
+            "name": "PerfTests.GetMergedAttributesTest.GetMergedAttributes(CIIDSelection: \"all\", AttributeValueType: \"IntegerArray\", AttributeCITuple: (1000, 10000, 4, 50))",
+            "value": 194551490.88,
+            "unit": "ns",
+            "range": "± 7167685.689777991"
+          },
+          {
+            "name": "PerfTests.GetMergedAttributesTest.GetMergedAttributes(CIIDSelection: \"all\", AttributeValueType: \"JSON\", AttributeCITuple: (1000, 10000, 4, 50))",
+            "value": 383389320.82,
+            "unit": "ns",
+            "range": "± 26916442.472602785"
+          },
+          {
+            "name": "PerfTests.GetMergedAttributesTest.GetMergedAttributes(CIIDSelection: \"all\", AttributeValueType: \"JSONArray\", AttributeCITuple: (1000, 10000, 4, 50))",
+            "value": 430206775.92,
+            "unit": "ns",
+            "range": "± 30466487.146602545"
+          },
+          {
+            "name": "PerfTests.GetMergedAttributesTest.GetMergedAttributes(CIIDSelection: \"all\", AttributeValueType: \"Text\", AttributeCITuple: (1000, 10000, 4, 50))",
+            "value": 123796352.72,
+            "unit": "ns",
+            "range": "± 9163204.64388223"
+          },
+          {
+            "name": "PerfTests.GetMergedAttributesTest.GetMergedAttributes(CIIDSelection: \"all\", AttributeValueType: \"TextArray\", AttributeCITuple: (1000, 10000, 4, 50))",
+            "value": 206192324.48,
+            "unit": "ns",
+            "range": "± 9632112.658478552"
           }
         ]
       }
