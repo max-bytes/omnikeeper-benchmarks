@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1663064984879,
+  "lastUpdate": 1663064986492,
   "repoUrl": "https://github.com/max-bytes/omnikeeper",
   "entries": {
     "Benchmark": [
@@ -812,6 +812,40 @@ window.BENCHMARK_DATA = {
             "value": 1121350392.5,
             "unit": "ns",
             "range": "± 37925867.454513006"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "committer": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "id": "eb0495c68e47e3e6a2c4bc5026823e43e469fbd4",
+          "message": "Added perf test for trait entities",
+          "timestamp": "2022-09-13T10:21:46Z",
+          "url": "https://github.com/max-bytes/omnikeeper/commit/eb0495c68e47e3e6a2c4bc5026823e43e469fbd4"
+        },
+        "date": 1663064986061,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 0, CIIDSelection: \"all\")",
+            "value": 184731888,
+            "unit": "ns",
+            "range": "± 14404720.671584394"
+          },
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 10, CIIDSelection: \"all\")",
+            "value": 507198351.22,
+            "unit": "ns",
+            "range": "± 347007637.1303721"
           }
         ]
       }
