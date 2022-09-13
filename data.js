@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1663073787523,
+  "lastUpdate": 1663073788705,
   "repoUrl": "https://github.com/max-bytes/omnikeeper",
   "entries": {
     "Benchmark": [
@@ -962,6 +962,40 @@ window.BENCHMARK_DATA = {
             "value": 1160956910.4,
             "unit": "ns",
             "range": "± 26997194.696438666"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "committer": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "id": "d897fcad8ecf6e1a979af8f7ea67aee0ac3f8160",
+          "message": "Reworked plugin loading to be more resilient and work better with plugin dependencies\nfixes #246",
+          "timestamp": "2022-09-13T12:47:52Z",
+          "url": "https://github.com/max-bytes/omnikeeper/commit/d897fcad8ecf6e1a979af8f7ea67aee0ac3f8160"
+        },
+        "date": 1663073788463,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 0, CIIDSelection: \"all\")",
+            "value": 233846617.94,
+            "unit": "ns",
+            "range": "± 10817037.052906346"
+          },
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 10, CIIDSelection: \"all\")",
+            "value": 1297705597.82,
+            "unit": "ns",
+            "range": "± 692428840.9017254"
           }
         ]
       }
