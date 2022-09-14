@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1663169058491,
+  "lastUpdate": 1663169059666,
   "repoUrl": "https://github.com/max-bytes/omnikeeper",
   "entries": {
     "Benchmark": [
@@ -1112,6 +1112,40 @@ window.BENCHMARK_DATA = {
             "value": 1128651373.7,
             "unit": "ns",
             "range": "± 20339534.787194464"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "committer": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "id": "af064d76434c690de301fcf14a65b9a72072d3f5",
+          "message": "Reworked the way the CLB and validator cache works\nHopefully fixes #266",
+          "timestamp": "2022-09-14T15:10:22Z",
+          "url": "https://github.com/max-bytes/omnikeeper/commit/af064d76434c690de301fcf14a65b9a72072d3f5"
+        },
+        "date": 1663169059413,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 0, CIIDSelection: \"all\")",
+            "value": 178393355.32,
+            "unit": "ns",
+            "range": "± 9135804.648965402"
+          },
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 10, CIIDSelection: \"all\")",
+            "value": 1233790935.4,
+            "unit": "ns",
+            "range": "± 699992243.5806026"
           }
         ]
       }
