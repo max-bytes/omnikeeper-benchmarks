@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1663332227743,
+  "lastUpdate": 1663332228893,
   "repoUrl": "https://github.com/max-bytes/omnikeeper",
   "entries": {
     "Benchmark": [
@@ -1712,6 +1712,40 @@ window.BENCHMARK_DATA = {
             "value": 1155745069.5,
             "unit": "ns",
             "range": "± 27592445.056989346"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "committer": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "id": "cdf12a0f0c0edae7de7cdf8105254416681c273f",
+          "message": "Merge branch 'master' of https://github.com/max-bytes/omnikeeper",
+          "timestamp": "2022-09-16T12:35:56Z",
+          "url": "https://github.com/max-bytes/omnikeeper/commit/cdf12a0f0c0edae7de7cdf8105254416681c273f"
+        },
+        "date": 1663332228666,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 0, CIIDSelection: \"all\")",
+            "value": 214669786.72,
+            "unit": "ns",
+            "range": "± 9278029.397010282"
+          },
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 10, CIIDSelection: \"all\")",
+            "value": 1122759444.46,
+            "unit": "ns",
+            "range": "± 692549086.0635"
           }
         ]
       }
