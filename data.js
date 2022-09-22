@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1663834353551,
+  "lastUpdate": 1663834355178,
   "repoUrl": "https://github.com/max-bytes/omnikeeper",
   "entries": {
     "Benchmark": [
@@ -2012,6 +2012,40 @@ window.BENCHMARK_DATA = {
             "value": 1149432196.2,
             "unit": "ns",
             "range": "± 43377965.46338712"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "committer": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "id": "0e7dc52eea499fcbb70f6847295c0b8e6f826d17",
+          "message": "Bugfix when graphql queries contain __typename subfield in traitEntities field",
+          "timestamp": "2022-09-22T08:04:21Z",
+          "url": "https://github.com/max-bytes/omnikeeper/commit/0e7dc52eea499fcbb70f6847295c0b8e6f826d17"
+        },
+        "date": 1663834354742,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 0, CIIDSelection: \"all\")",
+            "value": 186160637.64,
+            "unit": "ns",
+            "range": "± 8599753.997007895"
+          },
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 10, CIIDSelection: \"all\")",
+            "value": 1105097836.22,
+            "unit": "ns",
+            "range": "± 705527948.9957871"
           }
         ]
       }
