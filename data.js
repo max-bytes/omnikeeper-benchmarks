@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1664542698638,
+  "lastUpdate": 1664542701601,
   "repoUrl": "https://github.com/max-bytes/omnikeeper",
   "entries": {
     "Benchmark": [
@@ -2162,6 +2162,40 @@ window.BENCHMARK_DATA = {
             "value": 1350296826.2,
             "unit": "ns",
             "range": "± 32273892.234449234"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "committer": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "id": "474d0b642d31c46795dcc0321ed872cdc7c7da86",
+          "message": "Bugfix in issuelist frontend",
+          "timestamp": "2022-09-30T12:49:19Z",
+          "url": "https://github.com/max-bytes/omnikeeper/commit/474d0b642d31c46795dcc0321ed872cdc7c7da86"
+        },
+        "date": 1664542700653,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 0, CIIDSelection: \"all\")",
+            "value": 258942614.02,
+            "unit": "ns",
+            "range": "± 12877837.314101562"
+          },
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 10, CIIDSelection: \"all\")",
+            "value": 1215412990.76,
+            "unit": "ns",
+            "range": "± 796983116.8357655"
           }
         ]
       }
