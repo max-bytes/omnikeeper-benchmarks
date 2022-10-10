@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1665417269597,
+  "lastUpdate": 1665417270872,
   "repoUrl": "https://github.com/max-bytes/omnikeeper",
   "entries": {
     "Benchmark": [
@@ -2462,6 +2462,40 @@ window.BENCHMARK_DATA = {
             "value": 1136380198.2,
             "unit": "ns",
             "range": "± 26813111.017070755"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "committer": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "id": "49b1a7188203250ec6d47335b911f3e3cdfc0fdf",
+          "message": "Rework of array handling for attribute values, greatly increasing performance (hopefully)",
+          "timestamp": "2022-10-10T15:46:18Z",
+          "url": "https://github.com/max-bytes/omnikeeper/commit/49b1a7188203250ec6d47335b911f3e3cdfc0fdf"
+        },
+        "date": 1665417270613,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 0, CIIDSelection: \"all\")",
+            "value": 182418248.06,
+            "unit": "ns",
+            "range": "± 8956609.429644985"
+          },
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 10, CIIDSelection: \"all\")",
+            "value": 1183902735.12,
+            "unit": "ns",
+            "range": "± 705299550.6704493"
           }
         ]
       }
