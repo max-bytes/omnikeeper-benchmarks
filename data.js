@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1665851242860,
+  "lastUpdate": 1665851243983,
   "repoUrl": "https://github.com/max-bytes/omnikeeper",
   "entries": {
     "Benchmark": [
@@ -2912,6 +2912,40 @@ window.BENCHMARK_DATA = {
             "value": 1153894102.1,
             "unit": "ns",
             "range": "± 37472834.79347152"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "committer": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "id": "0ad48f0f3ff878528d846eb699f4ba655c1c545c",
+          "message": "Updated Npgsql to 6.0.7",
+          "timestamp": "2022-10-15T16:19:03Z",
+          "url": "https://github.com/max-bytes/omnikeeper/commit/0ad48f0f3ff878528d846eb699f4ba655c1c545c"
+        },
+        "date": 1665851243756,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 0, CIIDSelection: \"all\")",
+            "value": 217647477.3,
+            "unit": "ns",
+            "range": "± 12735205.317252412"
+          },
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 10, CIIDSelection: \"all\")",
+            "value": 665121576.5,
+            "unit": "ns",
+            "range": "± 452704392.5810708"
           }
         ]
       }
