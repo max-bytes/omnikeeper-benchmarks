@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1666009727181,
+  "lastUpdate": 1666009728373,
   "repoUrl": "https://github.com/max-bytes/omnikeeper",
   "entries": {
     "Benchmark": [
@@ -3362,6 +3362,40 @@ window.BENCHMARK_DATA = {
             "value": 1128362023.9,
             "unit": "ns",
             "range": "± 38171724.8263708"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "committer": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "id": "f9a1f537411c2812063e6b4c37eed350b37d42c6",
+          "message": "added support for object[] inputs for BuildFromTypeAndObject()",
+          "timestamp": "2022-10-17T12:20:18Z",
+          "url": "https://github.com/max-bytes/omnikeeper/commit/f9a1f537411c2812063e6b4c37eed350b37d42c6"
+        },
+        "date": 1666009728130,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 0, CIIDSelection: \"all\")",
+            "value": 233121901.72,
+            "unit": "ns",
+            "range": "± 9886504.060551701"
+          },
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 10, CIIDSelection: \"all\")",
+            "value": 1317932638.8,
+            "unit": "ns",
+            "range": "± 692827658.9860282"
           }
         ]
       }
