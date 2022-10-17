@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1666007569096,
+  "lastUpdate": 1666007570940,
   "repoUrl": "https://github.com/max-bytes/omnikeeper",
   "entries": {
     "Benchmark": [
@@ -3212,6 +3212,40 @@ window.BENCHMARK_DATA = {
             "value": 1413505752.3,
             "unit": "ns",
             "range": "± 39180894.30081625"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "committer": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "id": "18969e56242f81f6d9ddf1731ce55526de73c936",
+          "message": "Implemented updateSingleByFilter GraphQL mutation\nfixes #270",
+          "timestamp": "2022-10-17T11:44:00Z",
+          "url": "https://github.com/max-bytes/omnikeeper/commit/18969e56242f81f6d9ddf1731ce55526de73c936"
+        },
+        "date": 1666007570405,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 0, CIIDSelection: \"all\")",
+            "value": 271386691.68,
+            "unit": "ns",
+            "range": "± 11295201.339854363"
+          },
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 10, CIIDSelection: \"all\")",
+            "value": 672061782.66,
+            "unit": "ns",
+            "range": "± 333903360.4836935"
           }
         ]
       }
