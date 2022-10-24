@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1666597513233,
+  "lastUpdate": 1666597514958,
   "repoUrl": "https://github.com/max-bytes/omnikeeper",
   "entries": {
     "Benchmark": [
@@ -3512,6 +3512,40 @@ window.BENCHMARK_DATA = {
             "value": 1175561830.5,
             "unit": "ns",
             "range": "± 35978420.76415758"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "committer": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "id": "1e5a79f0b0696edffac0ae24866b4e05d26878bb",
+          "message": "Added docker based healthcheck, delegating to HTTP healthcheck",
+          "timestamp": "2022-10-24T07:37:28Z",
+          "url": "https://github.com/max-bytes/omnikeeper/commit/1e5a79f0b0696edffac0ae24866b4e05d26878bb"
+        },
+        "date": 1666597514492,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 0, CIIDSelection: \"all\")",
+            "value": 226622125.12,
+            "unit": "ns",
+            "range": "± 10835444.497746812"
+          },
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 10, CIIDSelection: \"all\")",
+            "value": 592366437.38,
+            "unit": "ns",
+            "range": "± 329973824.29536915"
           }
         ]
       }
