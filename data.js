@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1666687771761,
+  "lastUpdate": 1666687773086,
   "repoUrl": "https://github.com/max-bytes/omnikeeper",
   "entries": {
     "Benchmark": [
@@ -3662,6 +3662,40 @@ window.BENCHMARK_DATA = {
             "value": 1142422848.7,
             "unit": "ns",
             "range": "± 39201117.63291851"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "committer": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "id": "674999df8bf35f3125586006a19543b270e80ffe",
+          "message": "Initial implementation of reactive CLBs, still very buggy and experimental",
+          "timestamp": "2022-10-25T08:41:51Z",
+          "url": "https://github.com/max-bytes/omnikeeper/commit/674999df8bf35f3125586006a19543b270e80ffe"
+        },
+        "date": 1666687772826,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 0, CIIDSelection: \"all\")",
+            "value": 220608759.22,
+            "unit": "ns",
+            "range": "± 11890456.130700976"
+          },
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 10, CIIDSelection: \"all\")",
+            "value": 634269579.56,
+            "unit": "ns",
+            "range": "± 382761255.65074545"
           }
         ]
       }
