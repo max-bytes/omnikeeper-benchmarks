@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1666874612539,
+  "lastUpdate": 1666874613812,
   "repoUrl": "https://github.com/max-bytes/omnikeeper",
   "entries": {
     "Benchmark": [
@@ -3962,6 +3962,40 @@ window.BENCHMARK_DATA = {
             "value": 1138187654.3,
             "unit": "ns",
             "range": "± 15528373.150174856"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "committer": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "id": "e7066063054645c461e295fff07f434ec78ba238",
+          "message": "Added interface IReactiveRunService",
+          "timestamp": "2022-10-27T12:35:56Z",
+          "url": "https://github.com/max-bytes/omnikeeper/commit/e7066063054645c461e295fff07f434ec78ba238"
+        },
+        "date": 1666874613559,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 0, CIIDSelection: \"all\")",
+            "value": 211676022.14,
+            "unit": "ns",
+            "range": "± 9646675.338847166"
+          },
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 10, CIIDSelection: \"all\")",
+            "value": 509186142.86,
+            "unit": "ns",
+            "range": "± 194932682.78109744"
           }
         ]
       }
