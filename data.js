@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1666865442707,
+  "lastUpdate": 1666865443950,
   "repoUrl": "https://github.com/max-bytes/omnikeeper",
   "entries": {
     "Benchmark": [
@@ -3812,6 +3812,40 @@ window.BENCHMARK_DATA = {
             "value": 1170771429.6,
             "unit": "ns",
             "range": "± 37244424.59978478"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "committer": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "id": "19858ad295657200f9f5f24baad96be732de901e",
+          "message": "Improved RCLB interface",
+          "timestamp": "2022-10-27T10:02:08Z",
+          "url": "https://github.com/max-bytes/omnikeeper/commit/19858ad295657200f9f5f24baad96be732de901e"
+        },
+        "date": 1666865443690,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 0, CIIDSelection: \"all\")",
+            "value": 243934202.74,
+            "unit": "ns",
+            "range": "± 12748060.690690828"
+          },
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 10, CIIDSelection: \"all\")",
+            "value": 1285621568.76,
+            "unit": "ns",
+            "range": "± 658142511.4597934"
           }
         ]
       }
