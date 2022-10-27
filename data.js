@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1666880549399,
+  "lastUpdate": 1666880551262,
   "repoUrl": "https://github.com/max-bytes/omnikeeper",
   "entries": {
     "Benchmark": [
@@ -4112,6 +4112,40 @@ window.BENCHMARK_DATA = {
             "value": 1385671278.3,
             "unit": "ns",
             "range": "± 29771225.64484846"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "committer": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "id": "26d88aed106055d88ee534e70507ff6d5752ebb5",
+          "message": "Implemented IModelContext semaphore waiting for various DB models",
+          "timestamp": "2022-10-27T14:11:41Z",
+          "url": "https://github.com/max-bytes/omnikeeper/commit/26d88aed106055d88ee534e70507ff6d5752ebb5"
+        },
+        "date": 1666880550689,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 0, CIIDSelection: \"all\")",
+            "value": 267109199.24,
+            "unit": "ns",
+            "range": "± 13973201.272165706"
+          },
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 10, CIIDSelection: \"all\")",
+            "value": 751942344.5,
+            "unit": "ns",
+            "range": "± 455090695.1724681"
           }
         ]
       }
