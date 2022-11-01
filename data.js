@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1667333083655,
+  "lastUpdate": 1667333085174,
   "repoUrl": "https://github.com/max-bytes/omnikeeper",
   "entries": {
     "Benchmark": [
@@ -4562,6 +4562,40 @@ window.BENCHMARK_DATA = {
             "value": 1170918290.9,
             "unit": "ns",
             "range": "± 27888889.614299245"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "committer": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "id": "a571fafa7a4d52f76cb3a9136b68710ddf4c416a",
+          "message": "Added semaphore guards to missing DB Models",
+          "timestamp": "2022-11-01T16:18:58Z",
+          "url": "https://github.com/max-bytes/omnikeeper/commit/a571fafa7a4d52f76cb3a9136b68710ddf4c416a"
+        },
+        "date": 1667333084927,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 0, CIIDSelection: \"all\")",
+            "value": 236075742.76,
+            "unit": "ns",
+            "range": "± 10155647.159820495"
+          },
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 10, CIIDSelection: \"all\")",
+            "value": 1312532238.64,
+            "unit": "ns",
+            "range": "± 684760491.7766397"
           }
         ]
       }
