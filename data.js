@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1667333082298,
+  "lastUpdate": 1667333083655,
   "repoUrl": "https://github.com/max-bytes/omnikeeper",
   "entries": {
     "Benchmark": [
@@ -4504,6 +4504,64 @@ window.BENCHMARK_DATA = {
             "value": 197585816.18,
             "unit": "ns",
             "range": "± 8860184.740181591"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "committer": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "id": "a571fafa7a4d52f76cb3a9136b68710ddf4c416a",
+          "message": "Added semaphore guards to missing DB Models",
+          "timestamp": "2022-11-01T16:18:58Z",
+          "url": "https://github.com/max-bytes/omnikeeper/commit/a571fafa7a4d52f76cb3a9136b68710ddf4c416a"
+        },
+        "date": 1667333083387,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "PerfTests.BulkReplaceAttributesTest.BulkReplaceAttributes(AttributeValueType: \"Integer\", AttributeCITuple: (500, 5000, 5000, 50))",
+            "value": 917547154.6,
+            "unit": "ns",
+            "range": "± 31863839.233303823"
+          },
+          {
+            "name": "PerfTests.BulkReplaceAttributesTest.BulkReplaceAttributes(AttributeValueType: \"IntegerArray\", AttributeCITuple: (500, 5000, 5000, 50))",
+            "value": 966461431.3,
+            "unit": "ns",
+            "range": "± 12547272.114205208"
+          },
+          {
+            "name": "PerfTests.BulkReplaceAttributesTest.BulkReplaceAttributes(AttributeValueType: \"JSON\", AttributeCITuple: (500, 5000, 5000, 50))",
+            "value": 1148348089.8,
+            "unit": "ns",
+            "range": "± 174803663.58124197"
+          },
+          {
+            "name": "PerfTests.BulkReplaceAttributesTest.BulkReplaceAttributes(AttributeValueType: \"JSONArray\", AttributeCITuple: (500, 5000, 5000, 50))",
+            "value": 1778983500.5,
+            "unit": "ns",
+            "range": "± 2249260220.264391"
+          },
+          {
+            "name": "PerfTests.BulkReplaceAttributesTest.BulkReplaceAttributes(AttributeValueType: \"Text\", AttributeCITuple: (500, 5000, 5000, 50))",
+            "value": 961051021.8,
+            "unit": "ns",
+            "range": "± 26379322.378554348"
+          },
+          {
+            "name": "PerfTests.BulkReplaceAttributesTest.BulkReplaceAttributes(AttributeValueType: \"TextArray\", AttributeCITuple: (500, 5000, 5000, 50))",
+            "value": 1170918290.9,
+            "unit": "ns",
+            "range": "± 27888889.614299245"
           }
         ]
       }
