@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1667336204195,
+  "lastUpdate": 1667336206604,
   "repoUrl": "https://github.com/max-bytes/omnikeeper",
   "entries": {
     "Benchmark": [
@@ -5012,6 +5012,40 @@ window.BENCHMARK_DATA = {
             "value": 1142478093.4,
             "unit": "ns",
             "range": "± 28008706.1802293"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "committer": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "id": "e45d56cf2a5d8b2717574b5a4fc3a2799b61d16f",
+          "message": "Reworked baseAttribute fetching to use IAsyncEnumerable - experimental",
+          "timestamp": "2022-11-01T20:26:44Z",
+          "url": "https://github.com/max-bytes/omnikeeper/commit/e45d56cf2a5d8b2717574b5a4fc3a2799b61d16f"
+        },
+        "date": 1667336206342,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 0, CIIDSelection: \"all\")",
+            "value": 190960325.82,
+            "unit": "ns",
+            "range": "± 10498412.913450418"
+          },
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 10, CIIDSelection: \"all\")",
+            "value": 1236411094.86,
+            "unit": "ns",
+            "range": "± 719340616.640845"
           }
         ]
       }
