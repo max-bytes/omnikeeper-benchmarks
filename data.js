@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1666942865644,
+  "lastUpdate": 1667333082298,
   "repoUrl": "https://github.com/max-bytes/omnikeeper",
   "entries": {
     "Benchmark": [
@@ -4446,6 +4446,64 @@ window.BENCHMARK_DATA = {
             "value": 1201595832.18,
             "unit": "ns",
             "range": "± 706687453.4993918"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "committer": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "id": "a571fafa7a4d52f76cb3a9136b68710ddf4c416a",
+          "message": "Added semaphore guards to missing DB Models",
+          "timestamp": "2022-11-01T16:18:58Z",
+          "url": "https://github.com/max-bytes/omnikeeper/commit/a571fafa7a4d52f76cb3a9136b68710ddf4c416a"
+        },
+        "date": 1667333081333,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "PerfTests.GetMergedAttributesTest.GetMergedAttributes(CIIDSelection: \"all\", AttributeValueType: \"Integer\", AttributeCITuple: (1000, 10000, 4, 50))",
+            "value": 133627395.46,
+            "unit": "ns",
+            "range": "± 6011441.59473569"
+          },
+          {
+            "name": "PerfTests.GetMergedAttributesTest.GetMergedAttributes(CIIDSelection: \"all\", AttributeValueType: \"IntegerArray\", AttributeCITuple: (1000, 10000, 4, 50))",
+            "value": 208637435.92,
+            "unit": "ns",
+            "range": "± 7605029.254515826"
+          },
+          {
+            "name": "PerfTests.GetMergedAttributesTest.GetMergedAttributes(CIIDSelection: \"all\", AttributeValueType: \"JSON\", AttributeCITuple: (1000, 10000, 4, 50))",
+            "value": 409884360.66,
+            "unit": "ns",
+            "range": "± 33807223.62819913"
+          },
+          {
+            "name": "PerfTests.GetMergedAttributesTest.GetMergedAttributes(CIIDSelection: \"all\", AttributeValueType: \"JSONArray\", AttributeCITuple: (1000, 10000, 4, 50))",
+            "value": 435209482.32,
+            "unit": "ns",
+            "range": "± 21698765.90663845"
+          },
+          {
+            "name": "PerfTests.GetMergedAttributesTest.GetMergedAttributes(CIIDSelection: \"all\", AttributeValueType: \"Text\", AttributeCITuple: (1000, 10000, 4, 50))",
+            "value": 131989330.72,
+            "unit": "ns",
+            "range": "± 7729452.444768089"
+          },
+          {
+            "name": "PerfTests.GetMergedAttributesTest.GetMergedAttributes(CIIDSelection: \"all\", AttributeValueType: \"TextArray\", AttributeCITuple: (1000, 10000, 4, 50))",
+            "value": 197585816.18,
+            "unit": "ns",
+            "range": "± 8860184.740181591"
           }
         ]
       }
