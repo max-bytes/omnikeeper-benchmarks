@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1667377540462,
+  "lastUpdate": 1667377541714,
   "repoUrl": "https://github.com/max-bytes/omnikeeper",
   "entries": {
     "Benchmark": [
@@ -5162,6 +5162,40 @@ window.BENCHMARK_DATA = {
             "value": 1128082617.1,
             "unit": "ns",
             "range": "± 35096131.38164327"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "committer": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "id": "666b64037289d443d2cf0fb55a47c2bb80d2ee1e",
+          "message": "Reworked generator handling",
+          "timestamp": "2022-11-02T08:18:03Z",
+          "url": "https://github.com/max-bytes/omnikeeper/commit/666b64037289d443d2cf0fb55a47c2bb80d2ee1e"
+        },
+        "date": 1667377541447,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 0, CIIDSelection: \"all\")",
+            "value": 202218374.32,
+            "unit": "ns",
+            "range": "± 10360217.873606818"
+          },
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 10, CIIDSelection: \"all\")",
+            "value": 509064109.94,
+            "unit": "ns",
+            "range": "± 286324086.18786013"
           }
         ]
       }
