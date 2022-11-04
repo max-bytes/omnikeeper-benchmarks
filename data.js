@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1667559873053,
+  "lastUpdate": 1667559874550,
   "repoUrl": "https://github.com/max-bytes/omnikeeper",
   "entries": {
     "Benchmark": [
@@ -6362,6 +6362,40 @@ window.BENCHMARK_DATA = {
             "value": 1099563837.3,
             "unit": "ns",
             "range": "± 17871965.980182532"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "committer": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "id": "41be23518a7170f65fd20c94c46e0be286870c31",
+          "message": "Tiny bugfix regarding missing traits for trait-hints",
+          "timestamp": "2022-11-04T10:56:51Z",
+          "url": "https://github.com/max-bytes/omnikeeper/commit/41be23518a7170f65fd20c94c46e0be286870c31"
+        },
+        "date": 1667559874235,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 0, CIIDSelection: \"all\")",
+            "value": 164649192.98,
+            "unit": "ns",
+            "range": "± 11531174.417476159"
+          },
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 10, CIIDSelection: \"all\")",
+            "value": 566596195.44,
+            "unit": "ns",
+            "range": "± 466816364.1109103"
           }
         ]
       }
