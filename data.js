@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668180661283,
+  "lastUpdate": 1668180663239,
   "repoUrl": "https://github.com/max-bytes/omnikeeper",
   "entries": {
     "Benchmark": [
@@ -6512,6 +6512,40 @@ window.BENCHMARK_DATA = {
             "value": 1126643901.4,
             "unit": "ns",
             "range": "± 9977959.092891026"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "committer": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "id": "8520415dc72e6ca10187666f45823626a26a084b",
+          "message": "Removed generating of python client",
+          "timestamp": "2022-11-11T15:23:39Z",
+          "url": "https://github.com/max-bytes/omnikeeper/commit/8520415dc72e6ca10187666f45823626a26a084b"
+        },
+        "date": 1668180662828,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 0, CIIDSelection: \"all\")",
+            "value": 161786316.04,
+            "unit": "ns",
+            "range": "± 11795352.665242115"
+          },
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 10, CIIDSelection: \"all\")",
+            "value": 481852105.64,
+            "unit": "ns",
+            "range": "± 361450672.4210068"
           }
         ]
       }
