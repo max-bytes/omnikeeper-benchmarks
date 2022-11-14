@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668426747193,
+  "lastUpdate": 1668426748536,
   "repoUrl": "https://github.com/max-bytes/omnikeeper",
   "entries": {
     "Benchmark": [
@@ -6754,6 +6754,64 @@ window.BENCHMARK_DATA = {
             "value": 136780471.24,
             "unit": "ns",
             "range": "± 10465487.718605107"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "committer": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "id": "d0bce84412dda09a3ba7a92c01a38ac28973bceb",
+          "message": "Fix system test",
+          "timestamp": "2022-11-14T11:45:25Z",
+          "url": "https://github.com/max-bytes/omnikeeper/commit/d0bce84412dda09a3ba7a92c01a38ac28973bceb"
+        },
+        "date": 1668426748214,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "PerfTests.BulkReplaceAttributesTest.BulkReplaceAttributes(AttributeValueType: \"Integer\", AttributeCITuple: (500, 5000, 5000, 50))",
+            "value": 888323968.2,
+            "unit": "ns",
+            "range": "± 22791320.235151593"
+          },
+          {
+            "name": "PerfTests.BulkReplaceAttributesTest.BulkReplaceAttributes(AttributeValueType: \"IntegerArray\", AttributeCITuple: (500, 5000, 5000, 50))",
+            "value": 917359964,
+            "unit": "ns",
+            "range": "± 13505768.455732536"
+          },
+          {
+            "name": "PerfTests.BulkReplaceAttributesTest.BulkReplaceAttributes(AttributeValueType: \"JSON\", AttributeCITuple: (500, 5000, 5000, 50))",
+            "value": 1246307419.3,
+            "unit": "ns",
+            "range": "± 583372585.8699461"
+          },
+          {
+            "name": "PerfTests.BulkReplaceAttributesTest.BulkReplaceAttributes(AttributeValueType: \"JSONArray\", AttributeCITuple: (500, 5000, 5000, 50))",
+            "value": 1053475193.7,
+            "unit": "ns",
+            "range": "± 139197829.68557006"
+          },
+          {
+            "name": "PerfTests.BulkReplaceAttributesTest.BulkReplaceAttributes(AttributeValueType: \"Text\", AttributeCITuple: (500, 5000, 5000, 50))",
+            "value": 930526926,
+            "unit": "ns",
+            "range": "± 28070412.43173104"
+          },
+          {
+            "name": "PerfTests.BulkReplaceAttributesTest.BulkReplaceAttributes(AttributeValueType: \"TextArray\", AttributeCITuple: (500, 5000, 5000, 50))",
+            "value": 1113133148.3,
+            "unit": "ns",
+            "range": "± 9019002.382154051"
           }
         ]
       }
