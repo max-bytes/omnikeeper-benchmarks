@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668426431557,
+  "lastUpdate": 1668426433784,
   "repoUrl": "https://github.com/max-bytes/omnikeeper",
   "entries": {
     "Benchmark": [
@@ -6662,6 +6662,40 @@ window.BENCHMARK_DATA = {
             "value": 1499956340.5,
             "unit": "ns",
             "range": "± 29745392.959653378"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "committer": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "id": "b22469164293c2d60693db46bdf9ff6e72b58ab5",
+          "message": "Better caching of Traits",
+          "timestamp": "2022-11-14T11:36:40Z",
+          "url": "https://github.com/max-bytes/omnikeeper/commit/b22469164293c2d60693db46bdf9ff6e72b58ab5"
+        },
+        "date": 1668426433112,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 0, CIIDSelection: \"all\")",
+            "value": 233737811.02,
+            "unit": "ns",
+            "range": "± 13891187.790848836"
+          },
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 10, CIIDSelection: \"all\")",
+            "value": 1147310443.58,
+            "unit": "ns",
+            "range": "± 827530921.4730179"
           }
         ]
       }
