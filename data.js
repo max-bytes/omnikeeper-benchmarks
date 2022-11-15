@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668509501992,
+  "lastUpdate": 1668509504105,
   "repoUrl": "https://github.com/max-bytes/omnikeeper",
   "entries": {
     "Benchmark": [
@@ -7112,6 +7112,40 @@ window.BENCHMARK_DATA = {
             "value": 1397531231.8,
             "unit": "ns",
             "range": "± 44617818.80828267"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "committer": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "id": "5f502c7211e7270c7ad0224db20ca30aa6fb7462",
+          "message": "Added better graphql error returns",
+          "timestamp": "2022-11-15T10:42:27Z",
+          "url": "https://github.com/max-bytes/omnikeeper/commit/5f502c7211e7270c7ad0224db20ca30aa6fb7462"
+        },
+        "date": 1668509503431,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 0, CIIDSelection: \"all\")",
+            "value": 246944909.28,
+            "unit": "ns",
+            "range": "± 14385969.649521524"
+          },
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 10, CIIDSelection: \"all\")",
+            "value": 632131775.78,
+            "unit": "ns",
+            "range": "± 354949834.28229624"
           }
         ]
       }
