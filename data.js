@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668693724778,
+  "lastUpdate": 1668693726187,
   "repoUrl": "https://github.com/max-bytes/omnikeeper",
   "entries": {
     "Benchmark": [
@@ -7412,6 +7412,40 @@ window.BENCHMARK_DATA = {
             "value": 1146235254.1,
             "unit": "ns",
             "range": "± 19689328.949335575"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "committer": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "id": "415483cf7554fba93a3b8fdf22a000a3da1cfcc1",
+          "message": "Implemented initial support for id-relations for BulkdReplace trait entities",
+          "timestamp": "2022-11-17T13:54:19Z",
+          "url": "https://github.com/max-bytes/omnikeeper/commit/415483cf7554fba93a3b8fdf22a000a3da1cfcc1"
+        },
+        "date": 1668693725888,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 0, CIIDSelection: \"all\")",
+            "value": 201876758.94,
+            "unit": "ns",
+            "range": "± 12137582.710427504"
+          },
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 10, CIIDSelection: \"all\")",
+            "value": 490313009.22,
+            "unit": "ns",
+            "range": "± 190246370.24582547"
           }
         ]
       }
