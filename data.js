@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1669019151050,
+  "lastUpdate": 1669019152973,
   "repoUrl": "https://github.com/max-bytes/omnikeeper",
   "entries": {
     "Benchmark": [
@@ -7562,6 +7562,40 @@ window.BENCHMARK_DATA = {
             "value": 1249138852.8,
             "unit": "ns",
             "range": "± 38798679.22629207"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "committer": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "id": "fb51a48d2dd77f0dbc769177f233837e0864a1d4",
+          "message": "Improved return type of bulkReplaceTraitEntity graphql API",
+          "timestamp": "2022-11-21T08:17:26Z",
+          "url": "https://github.com/max-bytes/omnikeeper/commit/fb51a48d2dd77f0dbc769177f233837e0864a1d4"
+        },
+        "date": 1669019152376,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 0, CIIDSelection: \"all\")",
+            "value": 222060296.6,
+            "unit": "ns",
+            "range": "± 12677683.29630404"
+          },
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 10, CIIDSelection: \"all\")",
+            "value": 1110261808.42,
+            "unit": "ns",
+            "range": "± 780151237.748883"
           }
         ]
       }
