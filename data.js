@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1669626479924,
+  "lastUpdate": 1669626481331,
   "repoUrl": "https://github.com/max-bytes/omnikeeper",
   "entries": {
     "Benchmark": [
@@ -8012,6 +8012,40 @@ window.BENCHMARK_DATA = {
             "value": 1045611440.1,
             "unit": "ns",
             "range": "± 33613944.980077215"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "committer": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "id": "7691bf9975ef4c64feab96815e62dc6a506448a7",
+          "message": "bugfix for weird issue when localhost is not correctly resolvable for healthchecks",
+          "timestamp": "2022-11-28T09:00:38Z",
+          "url": "https://github.com/max-bytes/omnikeeper/commit/7691bf9975ef4c64feab96815e62dc6a506448a7"
+        },
+        "date": 1669626480943,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 0, CIIDSelection: \"all\")",
+            "value": 189949170.62,
+            "unit": "ns",
+            "range": "± 12496968.446555188"
+          },
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 10, CIIDSelection: \"all\")",
+            "value": 518399802.02,
+            "unit": "ns",
+            "range": "± 330959651.5152838"
           }
         ]
       }
