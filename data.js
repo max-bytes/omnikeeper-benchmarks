@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1669627532041,
+  "lastUpdate": 1669627533394,
   "repoUrl": "https://github.com/max-bytes/omnikeeper",
   "entries": {
     "Benchmark": [
@@ -8162,6 +8162,40 @@ window.BENCHMARK_DATA = {
             "value": 975418756.5,
             "unit": "ns",
             "range": "± 17769592.500123315"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "committer": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "id": "abb31ca1bdbbb559dfb118855639f577031d7fda",
+          "message": "bugfix for docker healthcheck in proxied environments",
+          "timestamp": "2022-11-28T09:18:19Z",
+          "url": "https://github.com/max-bytes/omnikeeper/commit/abb31ca1bdbbb559dfb118855639f577031d7fda"
+        },
+        "date": 1669627533057,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 0, CIIDSelection: \"all\")",
+            "value": 166321311.16,
+            "unit": "ns",
+            "range": "± 11045081.644554822"
+          },
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 10, CIIDSelection: \"all\")",
+            "value": 1200868216.48,
+            "unit": "ns",
+            "range": "± 636754209.2254742"
           }
         ]
       }
