@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1669736005721,
+  "lastUpdate": 1669736008028,
   "repoUrl": "https://github.com/max-bytes/omnikeeper",
   "entries": {
     "Benchmark": [
@@ -8462,6 +8462,40 @@ window.BENCHMARK_DATA = {
             "value": 1185963939.6,
             "unit": "ns",
             "range": "± 20178262.407398403"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "committer": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "id": "66bb7595c7d9e297882274dd873b1a3a09ef688a",
+          "message": "Improved usage tracking of graphql operations to include selection filter for trait entity operations",
+          "timestamp": "2022-11-29T15:25:01Z",
+          "url": "https://github.com/max-bytes/omnikeeper/commit/66bb7595c7d9e297882274dd873b1a3a09ef688a"
+        },
+        "date": 1669736007312,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 0, CIIDSelection: \"all\")",
+            "value": 241867630.98,
+            "unit": "ns",
+            "range": "± 8921410.24640696"
+          },
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 10, CIIDSelection: \"all\")",
+            "value": 1170752304.84,
+            "unit": "ns",
+            "range": "± 790239843.8018948"
           }
         ]
       }
