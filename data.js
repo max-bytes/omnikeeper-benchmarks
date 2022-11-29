@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1669728245391,
+  "lastUpdate": 1669728247350,
   "repoUrl": "https://github.com/max-bytes/omnikeeper",
   "entries": {
     "Benchmark": [
@@ -8312,6 +8312,40 @@ window.BENCHMARK_DATA = {
             "value": 998526266.7,
             "unit": "ns",
             "range": "± 31640543.379754443"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "committer": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "id": "2f4a40b0059b05e54f146d679f1d4a989ffa489b",
+          "message": "Implemented usage tracking for graphql operations",
+          "timestamp": "2022-11-29T13:16:48Z",
+          "url": "https://github.com/max-bytes/omnikeeper/commit/2f4a40b0059b05e54f146d679f1d4a989ffa489b"
+        },
+        "date": 1669728246690,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 0, CIIDSelection: \"all\")",
+            "value": 167663070.46,
+            "unit": "ns",
+            "range": "± 8472448.793944463"
+          },
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 10, CIIDSelection: \"all\")",
+            "value": 1084689515.12,
+            "unit": "ns",
+            "range": "± 658707509.7023994"
           }
         ]
       }
