@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1670244820007,
+  "lastUpdate": 1670244822414,
   "repoUrl": "https://github.com/max-bytes/omnikeeper",
   "entries": {
     "Benchmark": [
@@ -8612,6 +8612,40 @@ window.BENCHMARK_DATA = {
             "value": 992763836.1,
             "unit": "ns",
             "range": "± 21804358.039688088"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "committer": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "id": "f7a16cf7cadd71405ec94cdbef4f52bca149af68",
+          "message": "Implemented trait entity filtering for integer-typed attributes, supporting exact matching only",
+          "timestamp": "2022-12-05T12:45:05Z",
+          "url": "https://github.com/max-bytes/omnikeeper/commit/f7a16cf7cadd71405ec94cdbef4f52bca149af68"
+        },
+        "date": 1670244822082,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 0, CIIDSelection: \"all\")",
+            "value": 167147802.26,
+            "unit": "ns",
+            "range": "± 9340643.499049159"
+          },
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 10, CIIDSelection: \"all\")",
+            "value": 1220128502.86,
+            "unit": "ns",
+            "range": "± 701819624.6973636"
           }
         ]
       }
