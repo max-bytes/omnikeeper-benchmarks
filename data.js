@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1670768799131,
+  "lastUpdate": 1670768800492,
   "repoUrl": "https://github.com/max-bytes/omnikeeper",
   "entries": {
     "Benchmark": [
@@ -8854,6 +8854,64 @@ window.BENCHMARK_DATA = {
             "value": 162189849.86,
             "unit": "ns",
             "range": "± 15397020.23757978"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "committer": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "id": "483bbbf6bfd3abe69612cc9a9fe4d1fb2f6f6944",
+          "message": "Fixed GenericJSONIngest files ingest due to breaking change in .Net 7\nReworked JSON polymorphic handling to use new .Net 7 feature",
+          "timestamp": "2022-12-11T14:18:46Z",
+          "url": "https://github.com/max-bytes/omnikeeper/commit/483bbbf6bfd3abe69612cc9a9fe4d1fb2f6f6944"
+        },
+        "date": 1670768800155,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "PerfTests.BulkReplaceAttributesTest.BulkReplaceAttributes(AttributeValueType: \"Integer\", AttributeCITuple: (500, 5000, 5000, 50))",
+            "value": 807942754.7,
+            "unit": "ns",
+            "range": "± 28264350.605320457"
+          },
+          {
+            "name": "PerfTests.BulkReplaceAttributesTest.BulkReplaceAttributes(AttributeValueType: \"IntegerArray\", AttributeCITuple: (500, 5000, 5000, 50))",
+            "value": 1469968232.1,
+            "unit": "ns",
+            "range": "± 32334002.556413498"
+          },
+          {
+            "name": "PerfTests.BulkReplaceAttributesTest.BulkReplaceAttributes(AttributeValueType: \"JSON\", AttributeCITuple: (500, 5000, 5000, 50))",
+            "value": 886361072.7,
+            "unit": "ns",
+            "range": "± 57081392.76583662"
+          },
+          {
+            "name": "PerfTests.BulkReplaceAttributesTest.BulkReplaceAttributes(AttributeValueType: \"JSONArray\", AttributeCITuple: (500, 5000, 5000, 50))",
+            "value": 1548733170.9,
+            "unit": "ns",
+            "range": "± 2164542908.298181"
+          },
+          {
+            "name": "PerfTests.BulkReplaceAttributesTest.BulkReplaceAttributes(AttributeValueType: \"Text\", AttributeCITuple: (500, 5000, 5000, 50))",
+            "value": 845035239.7,
+            "unit": "ns",
+            "range": "± 37025389.244103104"
+          },
+          {
+            "name": "PerfTests.BulkReplaceAttributesTest.BulkReplaceAttributes(AttributeValueType: \"TextArray\", AttributeCITuple: (500, 5000, 5000, 50))",
+            "value": 1020451496.4,
+            "unit": "ns",
+            "range": "± 18360836.164242625"
           }
         ]
       }
