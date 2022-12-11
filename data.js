@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1670768800492,
+  "lastUpdate": 1670768801769,
   "repoUrl": "https://github.com/max-bytes/omnikeeper",
   "entries": {
     "Benchmark": [
@@ -8912,6 +8912,40 @@ window.BENCHMARK_DATA = {
             "value": 1020451496.4,
             "unit": "ns",
             "range": "± 18360836.164242625"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "committer": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "id": "483bbbf6bfd3abe69612cc9a9fe4d1fb2f6f6944",
+          "message": "Fixed GenericJSONIngest files ingest due to breaking change in .Net 7\nReworked JSON polymorphic handling to use new .Net 7 feature",
+          "timestamp": "2022-12-11T14:18:46Z",
+          "url": "https://github.com/max-bytes/omnikeeper/commit/483bbbf6bfd3abe69612cc9a9fe4d1fb2f6f6944"
+        },
+        "date": 1670768801435,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 0, CIIDSelection: \"all\")",
+            "value": 210783235.06,
+            "unit": "ns",
+            "range": "± 14280741.8462528"
+          },
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 10, CIIDSelection: \"all\")",
+            "value": 1244811670.92,
+            "unit": "ns",
+            "range": "± 774499199.4404279"
           }
         ]
       }
