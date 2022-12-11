@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1670760975083,
+  "lastUpdate": 1670760977093,
   "repoUrl": "https://github.com/max-bytes/omnikeeper",
   "entries": {
     "Benchmark": [
@@ -8762,6 +8762,40 @@ window.BENCHMARK_DATA = {
             "value": 1056484988,
             "unit": "ns",
             "range": "± 17031976.605876528"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "committer": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "id": "05af10b5887c149835aa4cea49a74c0ace443ebf",
+          "message": "Fixed CI/CD pipeline for .Net 7",
+          "timestamp": "2022-12-11T12:07:57Z",
+          "url": "https://github.com/max-bytes/omnikeeper/commit/05af10b5887c149835aa4cea49a74c0ace443ebf"
+        },
+        "date": 1670760976495,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 0, CIIDSelection: \"all\")",
+            "value": 217507270.64,
+            "unit": "ns",
+            "range": "± 13314170.399716916"
+          },
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 10, CIIDSelection: \"all\")",
+            "value": 1286448819.18,
+            "unit": "ns",
+            "range": "± 766190492.4925312"
           }
         ]
       }
