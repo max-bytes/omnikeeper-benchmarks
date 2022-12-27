@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1672183982632,
+  "lastUpdate": 1672183984764,
   "repoUrl": "https://github.com/max-bytes/omnikeeper",
   "entries": {
     "Benchmark": [
@@ -9212,6 +9212,40 @@ window.BENCHMARK_DATA = {
             "value": 1025651587.9,
             "unit": "ns",
             "range": "± 13299530.050815735"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "committer": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "id": "ff9859140a8dd27448950f65e78841b2a1926f6c",
+          "message": "Removed OIA related code",
+          "timestamp": "2022-12-27T23:25:02Z",
+          "url": "https://github.com/max-bytes/omnikeeper/commit/ff9859140a8dd27448950f65e78841b2a1926f6c"
+        },
+        "date": 1672183984144,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 0, CIIDSelection: \"all\")",
+            "value": 214472005.52,
+            "unit": "ns",
+            "range": "± 15417817.392135024"
+          },
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 10, CIIDSelection: \"all\")",
+            "value": 541794464.04,
+            "unit": "ns",
+            "range": "± 367513354.9194351"
           }
         ]
       }
