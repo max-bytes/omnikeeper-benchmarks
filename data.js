@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1672182166081,
+  "lastUpdate": 1672182167874,
   "repoUrl": "https://github.com/max-bytes/omnikeeper",
   "entries": {
     "Benchmark": [
@@ -9062,6 +9062,40 @@ window.BENCHMARK_DATA = {
             "value": 975694145.3,
             "unit": "ns",
             "range": "± 15807520.741215732"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "committer": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "id": "b22917221bc33ded2a6b17f339fdc581622f27eb",
+          "message": "Removed partitioning of attribute and relation tables",
+          "timestamp": "2022-12-27T22:54:32Z",
+          "url": "https://github.com/max-bytes/omnikeeper/commit/b22917221bc33ded2a6b17f339fdc581622f27eb"
+        },
+        "date": 1672182167307,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 0, CIIDSelection: \"all\")",
+            "value": 156863398.72,
+            "unit": "ns",
+            "range": "± 11661036.018261285"
+          },
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 10, CIIDSelection: \"all\")",
+            "value": 1241211663.4,
+            "unit": "ns",
+            "range": "± 698170884.9929231"
           }
         ]
       }
