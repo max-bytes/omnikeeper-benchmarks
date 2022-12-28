@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1672242160143,
+  "lastUpdate": 1672242161463,
   "repoUrl": "https://github.com/max-bytes/omnikeeper",
   "entries": {
     "Benchmark": [
@@ -9662,6 +9662,40 @@ window.BENCHMARK_DATA = {
             "value": 1072988570.7,
             "unit": "ns",
             "range": "± 17099666.4146627"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "committer": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "id": "becd7965fb5a2d5ecfe862111569e466a1eaed03",
+          "message": "Implemented postgres based alternative implementation for merging attributes (still extremely experimental)",
+          "timestamp": "2022-12-28T15:18:00Z",
+          "url": "https://github.com/max-bytes/omnikeeper/commit/becd7965fb5a2d5ecfe862111569e466a1eaed03"
+        },
+        "date": 1672242161170,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 0, CIIDSelection: \"all\")",
+            "value": 585199182.86,
+            "unit": "ns",
+            "range": "± 15025844.289241912"
+          },
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 10, CIIDSelection: \"all\")",
+            "value": 1456573688.2,
+            "unit": "ns",
+            "range": "± 737266338.3282499"
           }
         ]
       }
