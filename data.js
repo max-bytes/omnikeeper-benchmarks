@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1672242161463,
+  "lastUpdate": 1672261658314,
   "repoUrl": "https://github.com/max-bytes/omnikeeper",
   "entries": {
     "Benchmark": [
@@ -9696,6 +9696,34 @@ window.BENCHMARK_DATA = {
             "value": 1456573688.2,
             "unit": "ns",
             "range": "± 737266338.3282499"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "committer": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "id": "8b507abd3eb0578c5fe2498a34416da68230ce39",
+          "message": "Reverted experimental merge algorithm",
+          "timestamp": "2022-12-28T21:02:08Z",
+          "url": "https://github.com/max-bytes/omnikeeper/commit/8b507abd3eb0578c5fe2498a34416da68230ce39"
+        },
+        "date": 1672261657951,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "PerfTests.GetMergedAttributesTest.GetMergedAttributes(CIIDSelection: \"all\", AttributeValueType: \"Text\", AttributeCITuple: (1000, 10000, 4, 50))",
+            "value": 119013156.76,
+            "unit": "ns",
+            "range": "± 13359585.46178611"
           }
         ]
       }
