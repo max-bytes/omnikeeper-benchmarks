@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1673521325710,
+  "lastUpdate": 1673521328132,
   "repoUrl": "https://github.com/max-bytes/omnikeeper",
   "entries": {
     "Benchmark": [
@@ -10142,6 +10142,40 @@ window.BENCHMARK_DATA = {
             "value": 1248417236.2,
             "unit": "ns",
             "range": "± 40535548.9964617"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "committer": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "id": "4b3c4a4c2ea8d39adb64487357d07f143fc98db4",
+          "message": "Bugfix for removed quartz job",
+          "timestamp": "2023-01-12T10:54:57Z",
+          "url": "https://github.com/max-bytes/omnikeeper/commit/4b3c4a4c2ea8d39adb64487357d07f143fc98db4"
+        },
+        "date": 1673521327408,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 0, CIIDSelection: \"all\")",
+            "value": 252153125.9,
+            "unit": "ns",
+            "range": "± 17128125.631003212"
+          },
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 10, CIIDSelection: \"all\")",
+            "value": 1356785526.7,
+            "unit": "ns",
+            "range": "± 913461753.8305699"
           }
         ]
       }
