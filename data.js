@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1674041729197,
+  "lastUpdate": 1674041731612,
   "repoUrl": "https://github.com/max-bytes/omnikeeper",
   "entries": {
     "Benchmark": [
@@ -10384,6 +10384,64 @@ window.BENCHMARK_DATA = {
             "value": 135507613.94,
             "unit": "ns",
             "range": "± 14148242.316321708"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "committer": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "id": "af7f34b862911d620114dce9050ac419a8b0ae23",
+          "message": "Reworked NpgsqlConnection handling, moving opening of connection out of constructors, which in turn makes Quartz jobs recoverable",
+          "timestamp": "2023-01-18T11:28:10Z",
+          "url": "https://github.com/max-bytes/omnikeeper/commit/af7f34b862911d620114dce9050ac419a8b0ae23"
+        },
+        "date": 1674041730811,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "PerfTests.BulkReplaceAttributesTest.BulkReplaceAttributes(AttributeValueType: \"Integer\", AttributeCITuple: (500, 5000, 5000, 50))",
+            "value": 856310794.1,
+            "unit": "ns",
+            "range": "± 46263816.84859267"
+          },
+          {
+            "name": "PerfTests.BulkReplaceAttributesTest.BulkReplaceAttributes(AttributeValueType: \"IntegerArray\", AttributeCITuple: (500, 5000, 5000, 50))",
+            "value": 1375929967,
+            "unit": "ns",
+            "range": "± 20895948.550468452"
+          },
+          {
+            "name": "PerfTests.BulkReplaceAttributesTest.BulkReplaceAttributes(AttributeValueType: \"JSON\", AttributeCITuple: (500, 5000, 5000, 50))",
+            "value": 855271266.8,
+            "unit": "ns",
+            "range": "± 52185140.642324515"
+          },
+          {
+            "name": "PerfTests.BulkReplaceAttributesTest.BulkReplaceAttributes(AttributeValueType: \"JSONArray\", AttributeCITuple: (500, 5000, 5000, 50))",
+            "value": 1653539190,
+            "unit": "ns",
+            "range": "± 2457863307.398028"
+          },
+          {
+            "name": "PerfTests.BulkReplaceAttributesTest.BulkReplaceAttributes(AttributeValueType: \"Text\", AttributeCITuple: (500, 5000, 5000, 50))",
+            "value": 853361574.6,
+            "unit": "ns",
+            "range": "± 14337631.383230621"
+          },
+          {
+            "name": "PerfTests.BulkReplaceAttributesTest.BulkReplaceAttributes(AttributeValueType: \"TextArray\", AttributeCITuple: (500, 5000, 5000, 50))",
+            "value": 1044564223.5,
+            "unit": "ns",
+            "range": "± 23237013.41450698"
           }
         ]
       }
