@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1674041731612,
+  "lastUpdate": 1674041734050,
   "repoUrl": "https://github.com/max-bytes/omnikeeper",
   "entries": {
     "Benchmark": [
@@ -10442,6 +10442,40 @@ window.BENCHMARK_DATA = {
             "value": 1044564223.5,
             "unit": "ns",
             "range": "± 23237013.41450698"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "committer": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "id": "af7f34b862911d620114dce9050ac419a8b0ae23",
+          "message": "Reworked NpgsqlConnection handling, moving opening of connection out of constructors, which in turn makes Quartz jobs recoverable",
+          "timestamp": "2023-01-18T11:28:10Z",
+          "url": "https://github.com/max-bytes/omnikeeper/commit/af7f34b862911d620114dce9050ac419a8b0ae23"
+        },
+        "date": 1674041733219,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 0, CIIDSelection: \"all\")",
+            "value": 155516802.28,
+            "unit": "ns",
+            "range": "± 13314928.158634176"
+          },
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 10, CIIDSelection: \"all\")",
+            "value": 409823166.84,
+            "unit": "ns",
+            "range": "± 19302899.259280667"
           }
         ]
       }
