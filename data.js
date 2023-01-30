@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675077664385,
+  "lastUpdate": 1675077666179,
   "repoUrl": "https://github.com/max-bytes/omnikeeper",
   "entries": {
     "Benchmark": [
@@ -10742,6 +10742,40 @@ window.BENCHMARK_DATA = {
             "value": 1100795025.2,
             "unit": "ns",
             "range": "± 21071976.161182385"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "committer": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "id": "52e9ffac5861028cd53ab6c1f66b63e17a360e5b",
+          "message": "Added non-default execution timeout for db migrations",
+          "timestamp": "2023-01-30T11:13:06Z",
+          "url": "https://github.com/max-bytes/omnikeeper/commit/52e9ffac5861028cd53ab6c1f66b63e17a360e5b"
+        },
+        "date": 1675077665652,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 0, CIIDSelection: \"all\")",
+            "value": 163080421.56,
+            "unit": "ns",
+            "range": "± 14287820.73475662"
+          },
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 10, CIIDSelection: \"all\")",
+            "value": 583024330.66,
+            "unit": "ns",
+            "range": "± 475535823.5662773"
           }
         ]
       }
