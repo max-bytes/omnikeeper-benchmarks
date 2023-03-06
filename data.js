@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678114128426,
+  "lastUpdate": 1678114129973,
   "repoUrl": "https://github.com/max-bytes/omnikeeper",
   "entries": {
     "Benchmark": [
@@ -11042,6 +11042,40 @@ window.BENCHMARK_DATA = {
             "value": 1049818185.5,
             "unit": "ns",
             "range": "± 31158639.077350553"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "committer": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "id": "25216c8814b4be9c8d75f367113a248d0640a999",
+          "message": "fix for frontend cicd build problem regarding unsafe-perm removal",
+          "timestamp": "2023-03-06T14:41:57Z",
+          "url": "https://github.com/max-bytes/omnikeeper/commit/25216c8814b4be9c8d75f367113a248d0640a999"
+        },
+        "date": 1678114129539,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 0, CIIDSelection: \"all\")",
+            "value": 157360133.48,
+            "unit": "ns",
+            "range": "± 12706882.103476528"
+          },
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 10, CIIDSelection: \"all\")",
+            "value": 428508133.82,
+            "unit": "ns",
+            "range": "± 18456791.538313888"
           }
         ]
       }
