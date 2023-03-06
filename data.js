@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678114126968,
+  "lastUpdate": 1678114128426,
   "repoUrl": "https://github.com/max-bytes/omnikeeper",
   "entries": {
     "Benchmark": [
@@ -10984,6 +10984,64 @@ window.BENCHMARK_DATA = {
             "value": 141156021.14,
             "unit": "ns",
             "range": "± 8048011.39304005"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "committer": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "id": "25216c8814b4be9c8d75f367113a248d0640a999",
+          "message": "fix for frontend cicd build problem regarding unsafe-perm removal",
+          "timestamp": "2023-03-06T14:41:57Z",
+          "url": "https://github.com/max-bytes/omnikeeper/commit/25216c8814b4be9c8d75f367113a248d0640a999"
+        },
+        "date": 1678114128032,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "PerfTests.BulkReplaceAttributesTest.BulkReplaceAttributes(AttributeValueType: \"Integer\", AttributeCITuple: (500, 5000, 5000, 50))",
+            "value": 973003245.2,
+            "unit": "ns",
+            "range": "± 337832987.4893558"
+          },
+          {
+            "name": "PerfTests.BulkReplaceAttributesTest.BulkReplaceAttributes(AttributeValueType: \"IntegerArray\", AttributeCITuple: (500, 5000, 5000, 50))",
+            "value": 1433899591.8,
+            "unit": "ns",
+            "range": "± 25757265.59183919"
+          },
+          {
+            "name": "PerfTests.BulkReplaceAttributesTest.BulkReplaceAttributes(AttributeValueType: \"JSON\", AttributeCITuple: (500, 5000, 5000, 50))",
+            "value": 928665424.4,
+            "unit": "ns",
+            "range": "± 47350768.15406359"
+          },
+          {
+            "name": "PerfTests.BulkReplaceAttributesTest.BulkReplaceAttributes(AttributeValueType: \"JSONArray\", AttributeCITuple: (500, 5000, 5000, 50))",
+            "value": 1595436239.6,
+            "unit": "ns",
+            "range": "± 2417108980.437223"
+          },
+          {
+            "name": "PerfTests.BulkReplaceAttributesTest.BulkReplaceAttributes(AttributeValueType: \"Text\", AttributeCITuple: (500, 5000, 5000, 50))",
+            "value": 863409483.5,
+            "unit": "ns",
+            "range": "± 19076401.954261232"
+          },
+          {
+            "name": "PerfTests.BulkReplaceAttributesTest.BulkReplaceAttributes(AttributeValueType: \"TextArray\", AttributeCITuple: (500, 5000, 5000, 50))",
+            "value": 1049818185.5,
+            "unit": "ns",
+            "range": "± 31158639.077350553"
           }
         ]
       }
