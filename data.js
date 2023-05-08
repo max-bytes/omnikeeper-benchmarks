@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683557115054,
+  "lastUpdate": 1683557117000,
   "repoUrl": "https://github.com/max-bytes/omnikeeper",
   "entries": {
     "Benchmark": [
@@ -11192,6 +11192,40 @@ window.BENCHMARK_DATA = {
             "value": 1099496887.7,
             "unit": "ns",
             "range": "± 16887774.86408033"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "committer": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "id": "cd6ff759e03dba5f6894391fce8cabdead074dfc",
+          "message": "Upgraded npgsql and dbup-postgresql in migrations project to support \"target session attributes\" connection string parameter",
+          "timestamp": "2023-05-08T14:36:59Z",
+          "url": "https://github.com/max-bytes/omnikeeper/commit/cd6ff759e03dba5f6894391fce8cabdead074dfc"
+        },
+        "date": 1683557116330,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 0, CIIDSelection: \"all\")",
+            "value": 220435843.2,
+            "unit": "ns",
+            "range": "± 13624815.952190302"
+          },
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 10, CIIDSelection: \"all\")",
+            "value": 569360099.38,
+            "unit": "ns",
+            "range": "± 348007084.96319145"
           }
         ]
       }
