@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678114129973,
+  "lastUpdate": 1683557112734,
   "repoUrl": "https://github.com/max-bytes/omnikeeper",
   "entries": {
     "Benchmark": [
@@ -11076,6 +11076,64 @@ window.BENCHMARK_DATA = {
             "value": 428508133.82,
             "unit": "ns",
             "range": "± 18456791.538313888"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "committer": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "id": "cd6ff759e03dba5f6894391fce8cabdead074dfc",
+          "message": "Upgraded npgsql and dbup-postgresql in migrations project to support \"target session attributes\" connection string parameter",
+          "timestamp": "2023-05-08T14:36:59Z",
+          "url": "https://github.com/max-bytes/omnikeeper/commit/cd6ff759e03dba5f6894391fce8cabdead074dfc"
+        },
+        "date": 1683557112017,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "PerfTests.GetMergedAttributesTest.GetMergedAttributes(CIIDSelection: \"all\", AttributeValueType: \"Integer\", AttributeCITuple: (1000, 10000, 4, 50))",
+            "value": 126968635.82,
+            "unit": "ns",
+            "range": "± 14211647.336447027"
+          },
+          {
+            "name": "PerfTests.GetMergedAttributesTest.GetMergedAttributes(CIIDSelection: \"all\", AttributeValueType: \"IntegerArray\", AttributeCITuple: (1000, 10000, 4, 50))",
+            "value": 181718746.94,
+            "unit": "ns",
+            "range": "± 12204820.332864951"
+          },
+          {
+            "name": "PerfTests.GetMergedAttributesTest.GetMergedAttributes(CIIDSelection: \"all\", AttributeValueType: \"JSON\", AttributeCITuple: (1000, 10000, 4, 50))",
+            "value": 409474789.3,
+            "unit": "ns",
+            "range": "± 32695771.21784191"
+          },
+          {
+            "name": "PerfTests.GetMergedAttributesTest.GetMergedAttributes(CIIDSelection: \"all\", AttributeValueType: \"JSONArray\", AttributeCITuple: (1000, 10000, 4, 50))",
+            "value": 435510429.5,
+            "unit": "ns",
+            "range": "± 27826535.952279523"
+          },
+          {
+            "name": "PerfTests.GetMergedAttributesTest.GetMergedAttributes(CIIDSelection: \"all\", AttributeValueType: \"Text\", AttributeCITuple: (1000, 10000, 4, 50))",
+            "value": 130875067.14,
+            "unit": "ns",
+            "range": "± 14258238.794293672"
+          },
+          {
+            "name": "PerfTests.GetMergedAttributesTest.GetMergedAttributes(CIIDSelection: \"all\", AttributeValueType: \"TextArray\", AttributeCITuple: (1000, 10000, 4, 50))",
+            "value": 171029331.16,
+            "unit": "ns",
+            "range": "± 7548433.657685615"
           }
         ]
       }
