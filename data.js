@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1688718620656,
+  "lastUpdate": 1688718623080,
   "repoUrl": "https://github.com/max-bytes/omnikeeper",
   "entries": {
     "Benchmark": [
@@ -11342,6 +11342,40 @@ window.BENCHMARK_DATA = {
             "value": 1120005851.5,
             "unit": "ns",
             "range": "± 38693779.504407875"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "committer": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "id": "e1e9e442bef7e56139db9a3b120b5bdb39dfb3bc",
+          "message": "Implemented support for no-auth in frontend application",
+          "timestamp": "2023-07-07T08:21:42Z",
+          "url": "https://github.com/max-bytes/omnikeeper/commit/e1e9e442bef7e56139db9a3b120b5bdb39dfb3bc"
+        },
+        "date": 1688718622328,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 0, CIIDSelection: \"all\")",
+            "value": 217367423.66,
+            "unit": "ns",
+            "range": "± 13327465.050569765"
+          },
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 10, CIIDSelection: \"all\")",
+            "value": 569338770.24,
+            "unit": "ns",
+            "range": "± 24101661.207412347"
           }
         ]
       }
