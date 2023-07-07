@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1688719157193,
+  "lastUpdate": 1688719158759,
   "repoUrl": "https://github.com/max-bytes/omnikeeper",
   "entries": {
     "Benchmark": [
@@ -11492,6 +11492,40 @@ window.BENCHMARK_DATA = {
             "value": 860245954.3,
             "unit": "ns",
             "range": "± 21854981.211336657"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "committer": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "id": "04360e3a9925c16c45eac60461a9c4799c9e052b",
+          "message": "Temporary bugfix until https://github.com/samdenty/console-feed/issues/124 is sorted out",
+          "timestamp": "2023-07-07T08:31:51Z",
+          "url": "https://github.com/max-bytes/omnikeeper/commit/04360e3a9925c16c45eac60461a9c4799c9e052b"
+        },
+        "date": 1688719158326,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 0, CIIDSelection: \"all\")",
+            "value": 222789624.7,
+            "unit": "ns",
+            "range": "± 14685104.133945327"
+          },
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 10, CIIDSelection: \"all\")",
+            "value": 1275350295.36,
+            "unit": "ns",
+            "range": "± 728308513.3338004"
           }
         ]
       }
