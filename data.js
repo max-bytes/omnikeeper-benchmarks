@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1692607253979,
+  "lastUpdate": 1692607255429,
   "repoUrl": "https://github.com/max-bytes/omnikeeper",
   "entries": {
     "Benchmark": [
@@ -11792,6 +11792,40 @@ window.BENCHMARK_DATA = {
             "value": 876949978.6,
             "unit": "ns",
             "range": "± 15954647.984201053"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "committer": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "id": "b92f3199f971b65c2948e21aaba78d3d35163c01",
+          "message": "Added DynamicAuthSchemeService",
+          "timestamp": "2023-08-21T08:33:23Z",
+          "url": "https://github.com/max-bytes/omnikeeper/commit/b92f3199f971b65c2948e21aaba78d3d35163c01"
+        },
+        "date": 1692607255055,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 0, CIIDSelection: \"all\")",
+            "value": 230889675.46,
+            "unit": "ns",
+            "range": "± 11171265.950411178"
+          },
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 10, CIIDSelection: \"all\")",
+            "value": 705991380.6,
+            "unit": "ns",
+            "range": "± 519255170.47025335"
           }
         ]
       }
