@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1692610094914,
+  "lastUpdate": 1692610096273,
   "repoUrl": "https://github.com/max-bytes/omnikeeper",
   "entries": {
     "Benchmark": [
@@ -12092,6 +12092,40 @@ window.BENCHMARK_DATA = {
             "value": 864438985.5,
             "unit": "ns",
             "range": "± 20696450.287655454"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "committer": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "id": "1be281a9f0c79c834e0c03a8d7085dcf2c929d55",
+          "message": "Implemented ConfigureServices for OKPlugins",
+          "timestamp": "2023-08-21T09:20:42Z",
+          "url": "https://github.com/max-bytes/omnikeeper/commit/1be281a9f0c79c834e0c03a8d7085dcf2c929d55"
+        },
+        "date": 1692610095849,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 0, CIIDSelection: \"all\")",
+            "value": 226985654.94,
+            "unit": "ns",
+            "range": "± 13407189.845055887"
+          },
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 10, CIIDSelection: \"all\")",
+            "value": 1184103519.02,
+            "unit": "ns",
+            "range": "± 705138388.362799"
           }
         ]
       }
