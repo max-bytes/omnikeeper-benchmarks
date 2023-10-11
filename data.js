@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1697011151884,
+  "lastUpdate": 1697011153562,
   "repoUrl": "https://github.com/max-bytes/omnikeeper",
   "entries": {
     "Benchmark": [
@@ -12542,6 +12542,40 @@ window.BENCHMARK_DATA = {
             "value": 851506997,
             "unit": "ns",
             "range": "± 20541172.515474405"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "committer": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "id": "2c37f1da42a5fbf33da3212aff57b92a9691c3db",
+          "message": "Implemented graphql endpoint latestChangeAll for trait entities",
+          "timestamp": "2023-10-11T07:51:03Z",
+          "url": "https://github.com/max-bytes/omnikeeper/commit/2c37f1da42a5fbf33da3212aff57b92a9691c3db"
+        },
+        "date": 1697011153074,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 0, CIIDSelection: \"all\")",
+            "value": 224779028.26,
+            "unit": "ns",
+            "range": "± 14024594.656812547"
+          },
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 10, CIIDSelection: \"all\")",
+            "value": 1227359395.28,
+            "unit": "ns",
+            "range": "± 711743737.0393943"
           }
         ]
       }
