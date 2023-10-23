@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1698053927220,
+  "lastUpdate": 1698053929674,
   "repoUrl": "https://github.com/max-bytes/omnikeeper",
   "entries": {
     "Benchmark": [
@@ -12692,6 +12692,40 @@ window.BENCHMARK_DATA = {
             "value": 1139688900.2,
             "unit": "ns",
             "range": "± 38850520.57637878"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "committer": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "id": "12c3d9bf6c963fadce6ad9acdfc341f09c56ee8e",
+          "message": "Improved createCIs graphql interface: make name optional and allow specifying ciid",
+          "timestamp": "2023-10-23T09:29:44Z",
+          "url": "https://github.com/max-bytes/omnikeeper/commit/12c3d9bf6c963fadce6ad9acdfc341f09c56ee8e"
+        },
+        "date": 1698053928791,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 0, CIIDSelection: \"all\")",
+            "value": 288143687.16,
+            "unit": "ns",
+            "range": "± 15856030.862146806"
+          },
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 10, CIIDSelection: \"all\")",
+            "value": 586177113.98,
+            "unit": "ns",
+            "range": "± 18627112.12797937"
           }
         ]
       }
