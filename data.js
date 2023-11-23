@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1700738456079,
+  "lastUpdate": 1700738458209,
   "repoUrl": "https://github.com/max-bytes/omnikeeper",
   "entries": {
     "Benchmark": [
@@ -12842,6 +12842,40 @@ window.BENCHMARK_DATA = {
             "value": 637177574,
             "unit": "ns",
             "range": "± 15901733.724577602"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "committer": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "id": "6298dadc1a49f615eb9159337d68555438a92609",
+          "message": "implemented checkTrait graphql endpoint\nsimplified trait handling and added equality checks",
+          "timestamp": "2023-11-23T11:15:43Z",
+          "url": "https://github.com/max-bytes/omnikeeper/commit/6298dadc1a49f615eb9159337d68555438a92609"
+        },
+        "date": 1700738457531,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 0, CIIDSelection: \"all\")",
+            "value": 103311752.22,
+            "unit": "ns",
+            "range": "± 7535484.755767606"
+          },
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 10, CIIDSelection: \"all\")",
+            "value": 470253244.76,
+            "unit": "ns",
+            "range": "± 444685433.53158754"
           }
         ]
       }
