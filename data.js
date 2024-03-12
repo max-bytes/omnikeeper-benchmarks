@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1700738458209,
+  "lastUpdate": 1710251279640,
   "repoUrl": "https://github.com/max-bytes/omnikeeper",
   "entries": {
     "Benchmark": [
@@ -12876,6 +12876,64 @@ window.BENCHMARK_DATA = {
             "value": 470253244.76,
             "unit": "ns",
             "range": "± 444685433.53158754"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "committer": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "id": "77ce9641c619a8bafd7735e9700eecfd219521d9",
+          "message": "fix for frontend container running in non-root context",
+          "timestamp": "2024-03-12T13:42:54Z",
+          "url": "https://github.com/max-bytes/omnikeeper/commit/77ce9641c619a8bafd7735e9700eecfd219521d9"
+        },
+        "date": 1710251279293,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "PerfTests.GetMergedAttributesTest.GetMergedAttributes(CIIDSelection: \"all\", AttributeValueType: \"Integer\", AttributeCITuple: (1000, 10000, 4, 50))",
+            "value": 73210950.54,
+            "unit": "ns",
+            "range": "± 13587864.491798472"
+          },
+          {
+            "name": "PerfTests.GetMergedAttributesTest.GetMergedAttributes(CIIDSelection: \"all\", AttributeValueType: \"IntegerArray\", AttributeCITuple: (1000, 10000, 4, 50))",
+            "value": 98384805.4,
+            "unit": "ns",
+            "range": "± 6825892.484445583"
+          },
+          {
+            "name": "PerfTests.GetMergedAttributesTest.GetMergedAttributes(CIIDSelection: \"all\", AttributeValueType: \"JSON\", AttributeCITuple: (1000, 10000, 4, 50))",
+            "value": 201689673.58,
+            "unit": "ns",
+            "range": "± 9518901.512285464"
+          },
+          {
+            "name": "PerfTests.GetMergedAttributesTest.GetMergedAttributes(CIIDSelection: \"all\", AttributeValueType: \"JSONArray\", AttributeCITuple: (1000, 10000, 4, 50))",
+            "value": 213431139.98,
+            "unit": "ns",
+            "range": "± 13531421.07618757"
+          },
+          {
+            "name": "PerfTests.GetMergedAttributesTest.GetMergedAttributes(CIIDSelection: \"all\", AttributeValueType: \"Text\", AttributeCITuple: (1000, 10000, 4, 50))",
+            "value": 72330684.98,
+            "unit": "ns",
+            "range": "± 18188439.204473943"
+          },
+          {
+            "name": "PerfTests.GetMergedAttributesTest.GetMergedAttributes(CIIDSelection: \"all\", AttributeValueType: \"TextArray\", AttributeCITuple: (1000, 10000, 4, 50))",
+            "value": 83404866.76,
+            "unit": "ns",
+            "range": "± 13822500.319734974"
           }
         ]
       }
