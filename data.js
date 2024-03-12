@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1710256100469,
+  "lastUpdate": 1710256101854,
   "repoUrl": "https://github.com/max-bytes/omnikeeper",
   "entries": {
     "Benchmark": [
@@ -13142,6 +13142,40 @@ window.BENCHMARK_DATA = {
             "value": 671963997.7,
             "unit": "ns",
             "range": "± 16837818.656695016"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "committer": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "id": "cce409f22af82cd8cda6bc614614c235b72af3cb",
+          "message": "switched to unprivileged nginx for frontend container",
+          "timestamp": "2024-03-12T15:03:19Z",
+          "url": "https://github.com/max-bytes/omnikeeper/commit/cce409f22af82cd8cda6bc614614c235b72af3cb"
+        },
+        "date": 1710256101456,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 0, CIIDSelection: \"all\")",
+            "value": 114587140.9,
+            "unit": "ns",
+            "range": "± 10243604.380901797"
+          },
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 10, CIIDSelection: \"all\")",
+            "value": 378104901.4,
+            "unit": "ns",
+            "range": "± 295815206.96376795"
           }
         ]
       }
