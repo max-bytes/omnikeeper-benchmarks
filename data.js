@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1710251281033,
+  "lastUpdate": 1710251282436,
   "repoUrl": "https://github.com/max-bytes/omnikeeper",
   "entries": {
     "Benchmark": [
@@ -12992,6 +12992,40 @@ window.BENCHMARK_DATA = {
             "value": 641071553.4,
             "unit": "ns",
             "range": "± 13103654.930066211"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "committer": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "id": "77ce9641c619a8bafd7735e9700eecfd219521d9",
+          "message": "fix for frontend container running in non-root context",
+          "timestamp": "2024-03-12T13:42:54Z",
+          "url": "https://github.com/max-bytes/omnikeeper/commit/77ce9641c619a8bafd7735e9700eecfd219521d9"
+        },
+        "date": 1710251282047,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 0, CIIDSelection: \"all\")",
+            "value": 96659977.4,
+            "unit": "ns",
+            "range": "± 15124968.116582256"
+          },
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 10, CIIDSelection: \"all\")",
+            "value": 500273289.4,
+            "unit": "ns",
+            "range": "± 492386658.1208171"
           }
         ]
       }
