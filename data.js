@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1715378159513,
+  "lastUpdate": 1715378160765,
   "repoUrl": "https://github.com/max-bytes/omnikeeper",
   "entries": {
     "Benchmark": [
@@ -13892,6 +13892,40 @@ window.BENCHMARK_DATA = {
             "value": 629902499,
             "unit": "ns",
             "range": "± 11868793.520305077"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "committer": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "id": "4ce6921b50e12857fa2e943244f2fa9f89fefcb7",
+          "message": "bugfix for bulk replace of trait relations",
+          "timestamp": "2024-05-10T21:50:49Z",
+          "url": "https://github.com/max-bytes/omnikeeper/commit/4ce6921b50e12857fa2e943244f2fa9f89fefcb7"
+        },
+        "date": 1715378160458,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 0, CIIDSelection: \"all\")",
+            "value": 94005717.28,
+            "unit": "ns",
+            "range": "± 17861165.986752022"
+          },
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 10, CIIDSelection: \"all\")",
+            "value": 498621742.98,
+            "unit": "ns",
+            "range": "± 492022766.067603"
           }
         ]
       }
