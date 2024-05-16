@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1715854488826,
+  "lastUpdate": 1715854490222,
   "repoUrl": "https://github.com/max-bytes/omnikeeper",
   "entries": {
     "Benchmark": [
@@ -14042,6 +14042,40 @@ window.BENCHMARK_DATA = {
             "value": 627017856.7,
             "unit": "ns",
             "range": "± 15195450.729611631"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "committer": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "id": "a86d9575e5bbb62286013acc74f2b5cbf15a95d2",
+          "message": "reworked bulkReplaceRelations_* GraphQL endpoint: added explicit relevantCIIDs argument",
+          "timestamp": "2024-05-16T10:09:39Z",
+          "url": "https://github.com/max-bytes/omnikeeper/commit/a86d9575e5bbb62286013acc74f2b5cbf15a95d2"
+        },
+        "date": 1715854489873,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 0, CIIDSelection: \"all\")",
+            "value": 109692947.26,
+            "unit": "ns",
+            "range": "± 9153182.018304352"
+          },
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 10, CIIDSelection: \"all\")",
+            "value": 398828383.68,
+            "unit": "ns",
+            "range": "± 336233889.4072776"
           }
         ]
       }
