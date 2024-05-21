@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1716288772802,
+  "lastUpdate": 1716288774290,
   "repoUrl": "https://github.com/max-bytes/omnikeeper",
   "entries": {
     "Benchmark": [
@@ -14342,6 +14342,40 @@ window.BENCHMARK_DATA = {
             "value": 622111101.6,
             "unit": "ns",
             "range": "± 13945275.419557752"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "committer": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "id": "0bbcf488a6dae8305108b3fb1caa28cdac8ff23e",
+          "message": "bugfix for auth redirect issue when wildcard redirects are not allowed",
+          "timestamp": "2024-05-21T10:47:53Z",
+          "url": "https://github.com/max-bytes/omnikeeper/commit/0bbcf488a6dae8305108b3fb1caa28cdac8ff23e"
+        },
+        "date": 1716288773820,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 0, CIIDSelection: \"all\")",
+            "value": 105869563.1,
+            "unit": "ns",
+            "range": "± 10569991.199110648"
+          },
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 10, CIIDSelection: \"all\")",
+            "value": 469554565.22,
+            "unit": "ns",
+            "range": "± 453407739.91832227"
           }
         ]
       }
