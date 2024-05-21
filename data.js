@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1716288070100,
+  "lastUpdate": 1716288072219,
   "repoUrl": "https://github.com/max-bytes/omnikeeper",
   "entries": {
     "Benchmark": [
@@ -14192,6 +14192,40 @@ window.BENCHMARK_DATA = {
             "value": 631932544,
             "unit": "ns",
             "range": "± 17092136.052081883"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "committer": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "id": "b8066e3a927f5f12bbb76ab70ab24e23f93fa6bb",
+          "message": "bugfix for swagger API when BaseURL is non-empty",
+          "timestamp": "2024-05-21T10:35:40Z",
+          "url": "https://github.com/max-bytes/omnikeeper/commit/b8066e3a927f5f12bbb76ab70ab24e23f93fa6bb"
+        },
+        "date": 1716288071492,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 0, CIIDSelection: \"all\")",
+            "value": 104404422.9,
+            "unit": "ns",
+            "range": "± 11008584.33977733"
+          },
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 10, CIIDSelection: \"all\")",
+            "value": 417278274.9,
+            "unit": "ns",
+            "range": "± 399437067.3382889"
           }
         ]
       }
