@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1716292821283,
+  "lastUpdate": 1716292823445,
   "repoUrl": "https://github.com/max-bytes/omnikeeper",
   "entries": {
     "Benchmark": [
@@ -14492,6 +14492,40 @@ window.BENCHMARK_DATA = {
             "value": 637124896.7,
             "unit": "ns",
             "range": "± 11651888.390290715"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "committer": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "id": "6ae619dfc29bcf01397760d2bd504ec26d2beba5",
+          "message": "reverted swagger backend baseURL change and instead fix frontend swagger client",
+          "timestamp": "2024-05-21T11:55:24Z",
+          "url": "https://github.com/max-bytes/omnikeeper/commit/6ae619dfc29bcf01397760d2bd504ec26d2beba5"
+        },
+        "date": 1716292822675,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 0, CIIDSelection: \"all\")",
+            "value": 109857684.04,
+            "unit": "ns",
+            "range": "± 6472485.054749881"
+          },
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 10, CIIDSelection: \"all\")",
+            "value": 424795650.8,
+            "unit": "ns",
+            "range": "± 401171029.3607165"
           }
         ]
       }
