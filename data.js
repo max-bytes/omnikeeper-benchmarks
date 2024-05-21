@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1716292819157,
+  "lastUpdate": 1716292821283,
   "repoUrl": "https://github.com/max-bytes/omnikeeper",
   "entries": {
     "Benchmark": [
@@ -14434,6 +14434,64 @@ window.BENCHMARK_DATA = {
             "value": 87503507.96,
             "unit": "ns",
             "range": "± 14807817.872411484"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "committer": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "id": "6ae619dfc29bcf01397760d2bd504ec26d2beba5",
+          "message": "reverted swagger backend baseURL change and instead fix frontend swagger client",
+          "timestamp": "2024-05-21T11:55:24Z",
+          "url": "https://github.com/max-bytes/omnikeeper/commit/6ae619dfc29bcf01397760d2bd504ec26d2beba5"
+        },
+        "date": 1716292820502,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "PerfTests.BulkReplaceAttributesTest.BulkReplaceAttributes(AttributeValueType: \"Integer\", AttributeCITuple: (500, 5000, 5000, 50))",
+            "value": 447429967.2,
+            "unit": "ns",
+            "range": "± 6129674.496781408"
+          },
+          {
+            "name": "PerfTests.BulkReplaceAttributesTest.BulkReplaceAttributes(AttributeValueType: \"IntegerArray\", AttributeCITuple: (500, 5000, 5000, 50))",
+            "value": 721650146.5,
+            "unit": "ns",
+            "range": "± 19173247.68917693"
+          },
+          {
+            "name": "PerfTests.BulkReplaceAttributesTest.BulkReplaceAttributes(AttributeValueType: \"JSON\", AttributeCITuple: (500, 5000, 5000, 50))",
+            "value": 551279312.9,
+            "unit": "ns",
+            "range": "± 43978383.80688568"
+          },
+          {
+            "name": "PerfTests.BulkReplaceAttributesTest.BulkReplaceAttributes(AttributeValueType: \"JSONArray\", AttributeCITuple: (500, 5000, 5000, 50))",
+            "value": 522538665.3,
+            "unit": "ns",
+            "range": "± 34612788.79082665"
+          },
+          {
+            "name": "PerfTests.BulkReplaceAttributesTest.BulkReplaceAttributes(AttributeValueType: \"Text\", AttributeCITuple: (500, 5000, 5000, 50))",
+            "value": 466465690.1,
+            "unit": "ns",
+            "range": "± 12189322.403261257"
+          },
+          {
+            "name": "PerfTests.BulkReplaceAttributesTest.BulkReplaceAttributes(AttributeValueType: \"TextArray\", AttributeCITuple: (500, 5000, 5000, 50))",
+            "value": 637124896.7,
+            "unit": "ns",
+            "range": "± 11651888.390290715"
           }
         ]
       }
