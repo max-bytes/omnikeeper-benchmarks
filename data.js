@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1716288774290,
+  "lastUpdate": 1716292819157,
   "repoUrl": "https://github.com/max-bytes/omnikeeper",
   "entries": {
     "Benchmark": [
@@ -14376,6 +14376,64 @@ window.BENCHMARK_DATA = {
             "value": 469554565.22,
             "unit": "ns",
             "range": "± 453407739.91832227"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "committer": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "id": "6ae619dfc29bcf01397760d2bd504ec26d2beba5",
+          "message": "reverted swagger backend baseURL change and instead fix frontend swagger client",
+          "timestamp": "2024-05-21T11:55:24Z",
+          "url": "https://github.com/max-bytes/omnikeeper/commit/6ae619dfc29bcf01397760d2bd504ec26d2beba5"
+        },
+        "date": 1716292818500,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "PerfTests.GetMergedAttributesTest.GetMergedAttributes(CIIDSelection: \"all\", AttributeValueType: \"Integer\", AttributeCITuple: (1000, 10000, 4, 50))",
+            "value": 72943024.08,
+            "unit": "ns",
+            "range": "± 15422788.232417291"
+          },
+          {
+            "name": "PerfTests.GetMergedAttributesTest.GetMergedAttributes(CIIDSelection: \"all\", AttributeValueType: \"IntegerArray\", AttributeCITuple: (1000, 10000, 4, 50))",
+            "value": 99913818.3,
+            "unit": "ns",
+            "range": "± 6618729.81752593"
+          },
+          {
+            "name": "PerfTests.GetMergedAttributesTest.GetMergedAttributes(CIIDSelection: \"all\", AttributeValueType: \"JSON\", AttributeCITuple: (1000, 10000, 4, 50))",
+            "value": 207272561.9,
+            "unit": "ns",
+            "range": "± 10336231.212803468"
+          },
+          {
+            "name": "PerfTests.GetMergedAttributesTest.GetMergedAttributes(CIIDSelection: \"all\", AttributeValueType: \"JSONArray\", AttributeCITuple: (1000, 10000, 4, 50))",
+            "value": 226788286.24,
+            "unit": "ns",
+            "range": "± 9268810.14489814"
+          },
+          {
+            "name": "PerfTests.GetMergedAttributesTest.GetMergedAttributes(CIIDSelection: \"all\", AttributeValueType: \"Text\", AttributeCITuple: (1000, 10000, 4, 50))",
+            "value": 71116929.88,
+            "unit": "ns",
+            "range": "± 16886415.278036863"
+          },
+          {
+            "name": "PerfTests.GetMergedAttributesTest.GetMergedAttributes(CIIDSelection: \"all\", AttributeValueType: \"TextArray\", AttributeCITuple: (1000, 10000, 4, 50))",
+            "value": 87503507.96,
+            "unit": "ns",
+            "range": "± 14807817.872411484"
           }
         ]
       }
