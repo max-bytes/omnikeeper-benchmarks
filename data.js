@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1716462102334,
+  "lastUpdate": 1716462103614,
   "repoUrl": "https://github.com/max-bytes/omnikeeper",
   "entries": {
     "Benchmark": [
@@ -14642,6 +14642,40 @@ window.BENCHMARK_DATA = {
             "value": 638719274.2,
             "unit": "ns",
             "range": "± 9478540.932549573"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "committer": {
+            "name": "Maximilian Csuk",
+            "username": "maximiliancsuk",
+            "email": "maximilian.csuk@gmx.at"
+          },
+          "id": "cf7090952451effac66894511986ac4aae1d165a",
+          "message": "bugfix: fetching trait entities via graphql would not populate traitentity fields that have a dot in their identifier",
+          "timestamp": "2024-05-23T10:56:33Z",
+          "url": "https://github.com/max-bytes/omnikeeper/commit/cf7090952451effac66894511986ac4aae1d165a"
+        },
+        "date": 1716462103255,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 0, CIIDSelection: \"all\")",
+            "value": 103475073.36,
+            "unit": "ns",
+            "range": "± 12100201.890688024"
+          },
+          {
+            "name": "PerfTests.GetTraitEntitiesByCIIDTest.GetTraitEntitiesByCIID(NumTraitEntities: 10000, MaxRelatedCIs: 10, CIIDSelection: \"all\")",
+            "value": 429796842.72,
+            "unit": "ns",
+            "range": "± 396732850.0233051"
           }
         ]
       }
